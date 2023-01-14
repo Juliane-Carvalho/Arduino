@@ -1,3 +1,5 @@
+//Programa de variação de frequência sonora de buzzer com botões push button
+
 int frequencia = 2000;
 const int pinoBuzzer = 10;
 const int pinoBotao1 = 9;
@@ -20,7 +22,7 @@ void loop() {
     frequencia = frequencia - 100;
     }
 
-  tone(pinoBuzzer, frequencia); //gera frequência no pino correpsondente ao buzzer
+  tone(pinoBuzzer, frequencia); //gera frequência no pino correspondente ao buzzer
   delay(1000);
   noTone(pinoBuzzer); //interrompe a frequência
   delay(1000);
