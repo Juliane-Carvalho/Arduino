@@ -1,4 +1,4 @@
-
+//Programa de controle de temperatura usando sensor DS18B20 e display LCD5110
 
 //#include <LiquidCrystal_I2C.h>
 
